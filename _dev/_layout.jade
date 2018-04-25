@@ -1,0 +1,13 @@
+doctype
+html
+head
+  title= title
+  meta(name='description' content=description)
+  link(rel='stylesheet' href='/css/style.css')
+body
+  header
+    h1: a(href='#')
+    p jovialCode
+  main
+    != yield
+<!-- != yield - this is where the other pages will append to-->
